@@ -1,18 +1,24 @@
 {
-    "name": "herrera-io/box",
+    "name": "cmpayments/crate-lib",
     "description": "A library for simplifying the PHAR build process.",
     "keywords": ["phar"],
-    "homepage": "https://github.com/box-project/box2-lib",
+    "homepage": "https://github.com/cmpayments/crate-lib",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Bas Peters",
+            "email": "bp@cm.nl",
+            "homepage": "https://github.com/baspeters"
+        },
         {
             "name": "Kevin Herrera",
             "email": "kevin@herrera.io",
             "homepage": "http://kevin.herrera.io"
         }
+
     ],
     "support": {
-        "issues": "https://github.com/box-project/box2-lib/issues"
+        "issues": "https://github.com/cmpayments/crate-lib/issues"
     },
     "require": {
         "php": ">=5.3.3",
@@ -33,7 +39,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Herrera\\Box": "src/lib"
+            "CmPayments\\Crate": "src/lib"
         }
     },
     "config": {
